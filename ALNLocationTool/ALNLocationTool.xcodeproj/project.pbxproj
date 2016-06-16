@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092311DB1D12527400E501EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092311DA1D12527400E501EC /* main.m */; };
+		092311DE1D12527400E501EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092311DD1D12527400E501EC /* AppDelegate.m */; };
+		092311E11D12527400E501EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092311E01D12527400E501EC /* ViewController.m */; };
+		092311E41D12527400E501EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092311E21D12527400E501EC /* Main.storyboard */; };
+		092311E61D12527400E501EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092311E51D12527400E501EC /* Assets.xcassets */; };
+		092311E91D12527400E501EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092311E71D12527400E501EC /* LaunchScreen.storyboard */; };
+		092311F41D12527400E501EC /* ALNLocationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092311F31D12527400E501EC /* ALNLocationToolTests.m */; };
+		092311FF1D12527400E501EC /* ALNLocationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092311FE1D12527400E501EC /* ALNLocationToolUITests.m */; };
+		0923120E1D1252EA00E501EC /* ALNLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923120D1D1252EA00E501EC /* ALNLocationManager.m */; };
+		092312111D127B8F00E501EC /* ALNCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 092312101D127B8F00E501EC /* ALNCityModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		092311F01D12527400E501EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092311CE1D12527400E501EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092311D51D12527400E501EC;
+			remoteInfo = ALNLocationTool;
+		};
+		092311FB1D12527400E501EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092311CE1D12527400E501EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092311D51D12527400E501EC;
+			remoteInfo = ALNLocationTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092311D61D12527400E501EC /* ALNLocationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALNLocationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092311DA1D12527400E501EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092311DC1D12527400E501EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		092311DD1D12527400E501EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		092311DF1D12527400E501EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		092311E01D12527400E501EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		092311E31D12527400E501EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		092311E51D12527400E501EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		092311E81D12527400E501EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		092311EA1D12527400E501EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092311EF1D12527400E501EC /* ALNLocationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNLocationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092311F31D12527400E501EC /* ALNLocationToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALNLocationToolTests.m; sourceTree = "<group>"; };
+		092311F51D12527400E501EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092311FA1D12527400E501EC /* ALNLocationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNLocationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092311FE1D12527400E501EC /* ALNLocationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALNLocationToolUITests.m; sourceTree = "<group>"; };
+		092312001D12527400E501EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0923120C1D1252EA00E501EC /* ALNLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNLocationManager.h; sourceTree = "<group>"; };
+		0923120D1D1252EA00E501EC /* ALNLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNLocationManager.m; sourceTree = "<group>"; };
+		0923120F1D127B8F00E501EC /* ALNCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNCityModel.h; sourceTree = "<group>"; };
+		092312101D127B8F00E501EC /* ALNCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNCityModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092311D31D12527400E501EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092311EC1D12527400E501EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092311F71D12527400E501EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092311CD1D12527400E501EC = {
+			isa = PBXGroup;
+			children = (
+				092311D81D12527400E501EC /* ALNLocationTool */,
+				092311F21D12527400E501EC /* ALNLocationToolTests */,
+				092311FD1D12527400E501EC /* ALNLocationToolUITests */,
+				092311D71D12527400E501EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092311D71D12527400E501EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092311D61D12527400E501EC /* ALNLocationTool.app */,
+				092311EF1D12527400E501EC /* ALNLocationToolTests.xctest */,
+				092311FA1D12527400E501EC /* ALNLocationToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092311D81D12527400E501EC /* ALNLocationTool */ = {
+			isa = PBXGroup;
+			children = (
+				0923120F1D127B8F00E501EC /* ALNCityModel.h */,
+				092312101D127B8F00E501EC /* ALNCityModel.m */,
+				0923120C1D1252EA00E501EC /* ALNLocationManager.h */,
+				0923120D1D1252EA00E501EC /* ALNLocationManager.m */,
+				092311DC1D12527400E501EC /* AppDelegate.h */,
+				092311DD1D12527400E501EC /* AppDelegate.m */,
+				092311DF1D12527400E501EC /* ViewController.h */,
+				092311E01D12527400E501EC /* ViewController.m */,
+				092311E21D12527400E501EC /* Main.storyboard */,
+				092311E51D12527400E501EC /* Assets.xcassets */,
+				092311E71D12527400E501EC /* LaunchScreen.storyboard */,
+				092311EA1D12527400E501EC /* Info.plist */,
+				092311D91D12527400E501EC /* Supporting Files */,
+			);
+			path = ALNLocationTool;
+			sourceTree = "<group>";
+		};
+		092311D91D12527400E501EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092311DA1D12527400E501EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		092311F21D12527400E501EC /* ALNLocationToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				092311F31D12527400E501EC /* ALNLocationToolTests.m */,
+				092311F51D12527400E501EC /* Info.plist */,
+			);
+			path = ALNLocationToolTests;
+			sourceTree = "<group>";
+		};
+		092311FD1D12527400E501EC /* ALNLocationToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				092311FE1D12527400E501EC /* ALNLocationToolUITests.m */,
+				092312001D12527400E501EC /* Info.plist */,
+			);
+			path = ALNLocationToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092311D51D12527400E501EC /* ALNLocationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092312031D12527400E501EC /* Build configuration list for PBXNativeTarget "ALNLocationTool" */;
+			buildPhases = (
+				092311D21D12527400E501EC /* Sources */,
+				092311D31D12527400E501EC /* Frameworks */,
+				092311D41D12527400E501EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALNLocationTool;
+			productName = ALNLocationTool;
+			productReference = 092311D61D12527400E501EC /* ALNLocationTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		092311EE1D12527400E501EC /* ALNLocationToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092312061D12527400E501EC /* Build configuration list for PBXNativeTarget "ALNLocationToolTests" */;
+			buildPhases = (
+				092311EB1D12527400E501EC /* Sources */,
+				092311EC1D12527400E501EC /* Frameworks */,
+				092311ED1D12527400E501EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092311F11D12527400E501EC /* PBXTargetDependency */,
+			);
+			name = ALNLocationToolTests;
+			productName = ALNLocationToolTests;
+			productReference = 092311EF1D12527400E501EC /* ALNLocationToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		092311F91D12527400E501EC /* ALNLocationToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092312091D12527400E501EC /* Build configuration list for PBXNativeTarget "ALNLocationToolUITests" */;
+			buildPhases = (
+				092311F61D12527400E501EC /* Sources */,
+				092311F71D12527400E501EC /* Frameworks */,
+				092311F81D12527400E501EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092311FC1D12527400E501EC /* PBXTargetDependency */,
+			);
+			name = ALNLocationToolUITests;
+			productName = ALNLocationToolUITests;
+			productReference = 092311FA1D12527400E501EC /* ALNLocationToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092311CE1D12527400E501EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ALN;
+				TargetAttributes = {
+					092311D51D12527400E501EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					092311EE1D12527400E501EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 092311D51D12527400E501EC;
+					};
+					092311F91D12527400E501EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 092311D51D12527400E501EC;
+					};
+				};
+			};
+			buildConfigurationList = 092311D11D12527400E501EC /* Build configuration list for PBXProject "ALNLocationTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 092311CD1D12527400E501EC;
+			productRefGroup = 092311D71D12527400E501EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092311D51D12527400E501EC /* ALNLocationTool */,
+				092311EE1D12527400E501EC /* ALNLocationToolTests */,
+				092311F91D12527400E501EC /* ALNLocationToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092311D41D12527400E501EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092311E91D12527400E501EC /* LaunchScreen.storyboard in Resources */,
+				092311E61D12527400E501EC /* Assets.xcassets in Resources */,
+				092311E41D12527400E501EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092311ED1D12527400E501EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092311F81D12527400E501EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092311D21D12527400E501EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092311E11D12527400E501EC /* ViewController.m in Sources */,
+				092311DE1D12527400E501EC /* AppDelegate.m in Sources */,
+				092311DB1D12527400E501EC /* main.m in Sources */,
+				0923120E1D1252EA00E501EC /* ALNLocationManager.m in Sources */,
+				092312111D127B8F00E501EC /* ALNCityModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092311EB1D12527400E501EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092311F41D12527400E501EC /* ALNLocationToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092311F61D12527400E501EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092311FF1D12527400E501EC /* ALNLocationToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092311F11D12527400E501EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092311D51D12527400E501EC /* ALNLocationTool */;
+			targetProxy = 092311F01D12527400E501EC /* PBXContainerItemProxy */;
+		};
+		092311FC1D12527400E501EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092311D51D12527400E501EC /* ALNLocationTool */;
+			targetProxy = 092311FB1D12527400E501EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		092311E21D12527400E501EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092311E31D12527400E501EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		092311E71D12527400E501EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092311E81D12527400E501EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092312011D12527400E501EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		092312021D12527400E501EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092312041D12527400E501EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ALNLocationTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ALN.ALNLocationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		092312051D12527400E501EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ALNLocationTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ALN.ALNLocationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		092312071D12527400E501EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALNLocationToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ALN.ALNLocationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALNLocationTool.app/ALNLocationTool";
+			};
+			name = Debug;
+		};
+		092312081D12527400E501EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALNLocationToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ALN.ALNLocationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALNLocationTool.app/ALNLocationTool";
+			};
+			name = Release;
+		};
+		0923120A1D12527400E501EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ALNLocationToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ALN.ALNLocationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALNLocationTool;
+			};
+			name = Debug;
+		};
+		0923120B1D12527400E501EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ALNLocationToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ALN.ALNLocationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALNLocationTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092311D11D12527400E501EC /* Build configuration list for PBXProject "ALNLocationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092312011D12527400E501EC /* Debug */,
+				092312021D12527400E501EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092312031D12527400E501EC /* Build configuration list for PBXNativeTarget "ALNLocationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092312041D12527400E501EC /* Debug */,
+				092312051D12527400E501EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		092312061D12527400E501EC /* Build configuration list for PBXNativeTarget "ALNLocationToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092312071D12527400E501EC /* Debug */,
+				092312081D12527400E501EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		092312091D12527400E501EC /* Build configuration list for PBXNativeTarget "ALNLocationToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0923120A1D12527400E501EC /* Debug */,
+				0923120B1D12527400E501EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092311CE1D12527400E501EC /* Project object */;
+}
